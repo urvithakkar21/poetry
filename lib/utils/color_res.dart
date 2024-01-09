@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ColorRes {
+class ColorRes with ChangeNotifier {
   static const black = Colors.black;
   static const purple = Colors.deepPurple;
   static const white = Colors.white;

@@ -16,7 +16,8 @@ Widget homeBottomNavigation() {
         height: Get.height * 0.2,
         width: Get.width * 0.2,
         decoration: BoxDecoration(
-            shape: BoxShape.circle, border: Border.all(color: ColorRes.purple,width: 3)),
+            shape: BoxShape.circle,
+            border: Border.all(color: ColorRes.purple, width: 3)),
         child: FloatingActionButton(
           backgroundColor: ColorRes.white,
           onPressed: () {},
@@ -44,7 +45,6 @@ Widget homeBottomNavigation() {
         notchSmoothness: NotchSmoothness.verySmoothEdge,
         leftCornerRadius: 40,
         rightCornerRadius: 40,
-
         onTap: (index) => controller.onTapBottom(index),
         //other params
       ),
